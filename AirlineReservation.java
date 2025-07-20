@@ -430,7 +430,7 @@ public class AirlineReservation {
             return false;
         }
         int currentClass = findClass(currentRow);
-        if (upgradeClass <= currentClass)
+        if (upgradeClass >= currentClass)
          { 
             return false;
         }
